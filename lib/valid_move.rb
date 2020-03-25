@@ -1,7 +1,7 @@
 def valid_move?(board, index)
   if board[index] == " " || "" || nil
     true
-  elsif board[index] == "X" || "O" 
+  elsif board[index] == "X" || "O"
     false
   end 
 end
