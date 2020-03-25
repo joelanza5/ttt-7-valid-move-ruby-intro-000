@@ -14,7 +14,7 @@ elsif board[index] == ""
   false
 elsif board[index] == nil
   false
-elsif board[index] == "X" || "O"
+elsif board[index] == "X" || board[index] == "O"
   true
 end
 end
